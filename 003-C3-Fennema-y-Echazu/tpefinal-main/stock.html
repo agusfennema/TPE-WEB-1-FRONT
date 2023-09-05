@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/95fbe8c037.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+
+    <div class="fondoStock">
+    <div class="buscador">
+        <div class="btn_menu">
+            <button id="btn_menu"> <a><i class="fa-light fa-bars" style="color: #0a0a0a;"></i> </a> </button>
+        </div>
+      </div>
+    
+      <nav class="menu">
+        <ul class="navegador">
+            <li> <a href="ingreso.html">INGRESO</a></li>
+            <li> <a href="index.html">INICIO</a></li>
+            <li> <a href="talles.html">TALLES</a></li>
+            <li> <a href="stock.html"><i class="fa-solid fa-cart-shopping" style="color: #efeff1;"></i></a></li> 
+        </ul> 
+      </nav>
+
+    <section class="elementos">
+        <div class="imagenesremeras" id="remeras">
+            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/268/672/products/2081-6fef029fd3bd7fa68e16790754071032-480-0.webp">
+            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/268/672/products/1201-fb10dbf844ec61adee16745006827584-480-0.webp">
+            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/268/672/products/remeron-magic1-d6426c8c077f0fc2bd16726098412409-480-0.webp">
+            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/268/672/products/211-75d078d52954ba0cb216705899726481-640-0.jpg">
+            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/268/672/products/b312b261-60e0-4fbf-bec4-909aaa4a711a1-ef77a757189dc3c3c916685448400778-320-0.jpeg">
+            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/268/672/products/3691-e48145311e57aa1b6416673961181911-320-0.jpg">
+        </div>
+
+        <div class="imagenesbuzos" id="buzos">
+            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/268/672/products/3410c688-a19b-43e9-a0a3-c48374331c9d1-3c09e89126c353c75516812116393603-320-0.webp">
+            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/268/672/products/a802e2df-1fc5-4656-8460-9ff302563c101-020bc3858ef1096e0216807914977367-320-0.webp">
+            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/268/672/products/9049b8e4-9c04-4818-a5c5-bfab597348b81-f311b62e527ab875eb16780759674205-320-0.webp">
+            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/268/672/products/0f6f7bcd-8f98-46ee-9e69-0ddaeb26cfd11-33c4209bb8b44e80f916755975102964-1024-1024.webp">
+            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/268/672/products/140d3490-3afa-48e9-abea-c321de6568dc1-62704df16ac64284a516755952898681-320-0.webp">
+            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/268/672/products/177f9d55-0831-465c-9352-2253afd84b301-513cc0011b156fc2c116797463829715-320-0.webp">
+        </div>
+
+        <div class="imagenespantalones" id="pantalones">
+            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/652/261/products/img_00431-47eb18bd22e5ddb43216806305520718-480-0.webp">
+            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/652/261/products/img_00391-c15dad350fe44c694c16806305503452-480-0.webp">
+            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/652/261/products/img_00501-8cd1daf79e0d73bcde16806305247455-480-0.webp">
+            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/652/261/products/img_00341-18211266b2baf80ede16806305201268-480-0.webp">
+            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/652/261/products/img_00471-bd385350e388c2962516806305495299-480-0.webp">
+            <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/001/652/261/products/img_00031-f54e1bdd44ac999de216806309884238-480-0.webp">
+        </div>
+</section>>
+
+
+    <table id="miTabla">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Cantidad</th>
+          <th>Precio</th>
+          <th>Subtotal</th>
+        </tr>
+      </thead>
+      <tbody id="miTablaBody">
+      </tbody>
+      <tfoot>
+        <tr> 
+          <td colspan="3"></td>  
+          <td id="total"></td>
+          <td></td>
+        </tr>
+      </tfoot>
+    </table>
+
+<form id="miFormulario">
+  <label for="nombre">Prenda:</label>
+  <input type="text" id="nombre" name="nombre">
+
+  <label for="cantidad">Cantidad:</label>
+  <input type="number" id="cantidad" name="cantidad">
+
+  <label for="precio">Precio:</label>
+  <input type="number" id="precio" name="precio">
+
+  <button type="submit" id="btnAdd">Agregar</button>
+  <input type="button" id="btnBorr" value="Borrar" >
+  <input type="button" id="btnBorrTodo" value="Borrar Todo">
+  <p>¿Primera compra? ¡Presiona aquí!</p>
+  <input type="button" id="btnAdd3" value="Sorpresa">
+</form>
+</div>
+
+</body>
+<script type="text/javascript" src="javascript/menu.js"></script>
+<script type="text/javascript" src="javascript/tabla.js"></script>
+</html>
