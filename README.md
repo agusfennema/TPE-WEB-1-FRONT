@@ -1,4 +1,13 @@
-Intregrantes: Agustina Fennema y Candela Echazú 
-Temática: Tienda de indumentaria
-Descripción: Nuestra página web es una tienda de indumentaria, la cual incluye por el momento una variedad de prendas de distintos colores, talles y precios.
-Tecnologías Utilizadas: Javascript, HTML y CSS
+Tienda de Indumentaria
+Integrantes
+Agustina Fennema
+Candela Echazú
+Descripción
+¡Bienvenidos a nuestra página web de la Tienda de Indumentaria! En nuestro sitio encontrarás una amplia gama de prendas de vestir disponibles en diversos colores, tamaños y rangos de precios. Estamos constantemente actualizando nuestro catálogo para ofrecerte las últimas tendencias en moda.
+
+Tecnologías Utilizadas
+Este proyecto ha sido desarrollado utilizando:
+
+Javascript
+HTML
+CSS
